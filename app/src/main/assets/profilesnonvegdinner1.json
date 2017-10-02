@@ -1,0 +1,27 @@
+//by right click on app  new/ folder/assets folder
+[
+  {
+    "url":"http://imgh.us/images_(1)_95.jpg",
+    "name":"Butter chicken"
+  },
+  {
+    "url":"http://imgh.us/images_(2)_69.jpg",
+    "name":"Egg Biryani"
+  },
+  {
+    "url":"http://imgh.us/images_(3)_37.jpg",
+    "name":"Chicken korma"
+  },
+  {
+    "url":"http://imgh.us/images_(4)_37.jpg",
+    "name":"Chicken lolipop"
+  },
+  {
+    "url":"http://imgh.us/images_(5)_16.jpg",
+    "name":"Chicken 65"
+  },
+  {
+    "url":"http://imgh.us/images_539.jpg",
+    "name":"Chicken shaandar"
+  }
+]

@@ -1,0 +1,46 @@
+package com.developer.harshi.tinderforrecipes.BreakfastLunchOrDinner;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
+
+import com.developer.harshi.tinderforrecipes.CuisineActivity.CuisinesActivityVegLunch;
+import com.developer.harshi.tinderforrecipes.DietActivity.DietActivityVegLunch;
+import com.developer.harshi.tinderforrecipes.R;
+
+/**
+ * Created by Harshi on 7/7/2017.
+ */
+
+public class VegLunch extends AppCompatActivity {
+
+    Button btnHeart,btnDiabeties,btnCalories,btnNone;
+
+    @Override
+    protected void onCreate( Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.health_concious);
+
+        Button btnSkip = (Button) findViewById(R.id.btnFastfood);
+        Button imgHealthy = (Button) findViewById(R.id.btnslowFood);
+
+        btnSkip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(VegLunch.this, CuisinesActivityVegLunch.class);
+                startActivity(i);
+            }
+        });
+
+        imgHealthy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(VegLunch.this, DietActivityVegLunch.class);
+                startActivity(i);
+            }
+        });
+    }
+}

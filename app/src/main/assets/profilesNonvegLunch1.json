@@ -1,0 +1,24 @@
+//by right click on app  new/ folder/assets folder
+//by right click on app  new/ folder/assets folder
+[
+  {
+    "url":"http://imgh.us/Butter-chicken-recipe.jpg",
+    "name":"Butter chicken"
+  },
+  {
+    "url":"http://imgh.us/download_170.jpg",
+    "name":"Chicken Leg Peice"
+  },
+  {
+    "url":"http://imgh.us/download_(1)_43.jpg",
+    "name":"Chicken korma"
+  },
+  {
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg8TiJLaZvcxLlgiilpnMUJEmStzpOFKfBIRO2yPFQQry8vSkFdA",
+    "name":"Egg Curry"
+  },
+  {
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsU3sAkmytFMUDrSCRw4Ds7zNnx6Vg2wyMOEidQPQV9pKDFWkH0A",
+    "name":"Chicken 65"
+  }
+]

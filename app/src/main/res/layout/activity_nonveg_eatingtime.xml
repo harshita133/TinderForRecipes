@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1.2">
+
+    <ImageButton
+        android:id="@+id/imageButtonNonVegBreakfast"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.40"
+        android:scaleType="fitXY"
+        android:background="@color/cardview_light_background"
+        app:srcCompat="@drawable/breakfast" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNonVegLunch"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/imageButtonNonVegBreakfast"
+        android:scaleType="fitXY"
+        android:layout_weight="0.40"
+        android:background="@color/cardview_light_background"
+        app:srcCompat="@drawable/lunch" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNonVegDinner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.40"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/dinner" />
+
+</LinearLayout>
